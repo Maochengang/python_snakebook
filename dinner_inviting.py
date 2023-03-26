@@ -1,0 +1,30 @@
+a = ['tang qiying','wang luo','qin kaibo','hu lilian']
+
+print(f"{a[0].title()} ,would you like to have a dinner with me")
+print(f"{a[1].title()} ,would you like to have a dinner with me")
+print(f"{a[2].title()},would you like to have a dinner with me")
+print(f"{a[3].title()} ,would you like to have a dinner with me")
+print(f"{a[1].title()} can not have a dinner with me")
+a.remove('wang luo')
+print(a)
+a.insert(0,'zhang yaoyue')
+a.insert(2,'li zhen')
+a.append('zhu xile')
+print(a)
+print("I can invite only two of them to come my dinner")
+popped_a=a.pop()
+print(f"{popped_a.title()}, I am sorry to inform that my dinner is full")
+popped_a=a.pop()
+print(f"{popped_a.title()}, I am sorry to inform that my dinner is full")
+popped_a=a.pop()
+print(f"{popped_a.title()}, I am sorry to inform that my dinner is full")
+popped_a=a.pop()
+print(f"{popped_a.title()}, I am sorry to inform that my dinner is full")
+print(a)
+print(f"{a[0].title()},you can come to my house at 6 pm")
+print(f"{a[1].title()},you can come to my house at 6 pm")
+print(f"I have invited {len(a)} guys to my dinner")
+del a[0]
+del a[0]
+print(a)
+
